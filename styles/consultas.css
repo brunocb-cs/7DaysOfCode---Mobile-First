@@ -1,0 +1,163 @@
+
+.consultas-last{
+    margin-bottom: 8em;
+}
+
+.consultas__titulo{
+    font-weight: 700;
+    font-size: 16px;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.consultas__boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 0 1em;
+}
+
+.consulta__box{
+    background-color: var(--branco);
+    border-radius: 8px;
+}
+
+.box__info{
+    display: flex;
+    padding: 1em;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: var(--branco-escuro);
+    justify-content: space-between;
+}
+
+.info__dados{
+    display: flex;
+    gap: 1em;
+}
+
+.info__foto{
+    width: 12%;
+    border-radius: 100px;
+}
+
+.info__texto{
+    align-self: center;
+}
+
+.info__nome{
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--cinza);
+}
+
+.info__texto__descricao{
+    display: flex;
+    margin-top: 0.25em;
+    gap: 0.5em;
+}
+
+.descricao__texto{
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--cinza-claro);
+}
+
+.info__icone{
+    text-align: center;
+    align-self: center;
+}
+
+.box__acoes{
+    padding: 1em;
+}
+.acoes__texto{
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--cinza);
+    margin-bottom: 0.5em;
+}
+
+.acoes__links{
+    display: flex;
+    gap: 1em;
+}
+
+.acoes__links-alt{
+    display: flex;
+    justify-content: center;
+}
+
+.links__botao{
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.botao-laranja{
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--branco);
+    background-color: var(--laranja);
+    box-shadow: 0px 0px 2px var(--laranja);
+}
+
+.botao-transparente{
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--cinza);
+    border: 1px solid var(--branco-escuro);
+}
+
+.botao-azul{
+    color: var(--branco);
+    background-color: var(--azul);
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: 0px 0px 2px var(--azul);
+}
+
+@media screen and (min-width:1028px) {
+    
+    .consultas__titulo{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 3em;
+    }
+
+    .consultas__boxes{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+
+    .consulta__box{
+        width: 45%;
+    }
+
+}
+
+@media screen and (min-width:1728px) {
+    
+    .consultas__titulo{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 3em;
+    }
+
+    .consultas__boxes{
+        flex-direction: row;
+        justify-content: left;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+
+    .consulta__box{
+        width: 30%;
+    }
+
+}

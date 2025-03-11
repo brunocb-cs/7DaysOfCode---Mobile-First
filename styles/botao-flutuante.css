@@ -1,0 +1,21 @@
+.botao__flutuante{
+    position: absolute;
+    padding: 1em 1.05em;
+    background-color: var(--azul);
+    box-shadow: 0px 0px 2px var(--azul);
+    border-radius: 50px;
+    bottom: 120%;
+    left: 85%;
+}
+
+@media screen and (min-width: 1028px) {
+    .botao__flutuante{
+        left: 93%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .botao__flutuante{
+        left: 95%;
+    }
+}
